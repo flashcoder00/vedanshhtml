@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangy Tadka</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #6f1a07;
+            background-color: #6f1a07, ;
+            color: #6f1a07,;
+        }
+
+        header {
+            background: linear-gradient(to bottom,#4ec3d5,(232, 89, 33), rgba(0,0,0,0.7)), url('restaurant.jpg') no-repeat center center/cover;
+            color: rgb(239, 88, 7);
+            text-align: center;
+            padding: 100px 0;
+            position: relative;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 100px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #6f1a07;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+            background-color: #6f1a07;
+            
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #a8763e;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 5px 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            background-color: #f0ff47;
+            color: black;
+            border-radius: 5px;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #ff6347;
+            border-bottom: 2px solid #ff6347;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .menu-item {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            width: 50%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .menu-item h3 {
+            padding: 10px;
+            font-size: 1.5em;
+            color: #ff6347;
+        }
+
+        .menu-item p {
+            padding: 0 10px 10px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .about, .contact {
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact label {
+            margin: 10px 0 5px;
+        }
+
+        .contact input[type="text"], .contact input[type="email"], .contact textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+
+        .contact input[type="submit"]:hover {
+            background-color: #ff4500;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="file:///C:/Users/pc/Downloads/projectss.png" alt="Tangy Tadka  Logo" class="logo">
+        <h1> <b>Tangy Tadka</b> </h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="Home">
+        <h2>Welcome to Tangy Tadka </h2>
+        <p>Experience the taste of delicious cuisine in an unforgettable ambiance!</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div class="menu -cuisines">
+                <img src="file:///C:/Users/pc/Downloads/sample010.jpg" alt="DISH1">
+                
+                <h3> northindian</h3>
+                <p> delicious northindian thali .</p>
+            </div>
+            <div class="menu-item">
+                <img src="file:///C:/Users/pc/Downloads/SAMPLE02.webp" alt="Dish 2">
+                <h3>Chinese cuisine 2</h3>
+                <p>Mouth watering noodles .</p>
+            </div>
+            <div class="menu-item">
+                <img src="file:///C:/Users/pc/Downloads/sample030.jpg" alt="Dish 3">
+                <h3>South indian platter 3</h3>
+                <p>A delicious description of the dish.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Tangy Tadka  is a family-owned restaurant dedicated to serving fresh, delicious meals made from locally sourced ingredients. Our chefs create a variety of dishes that will satisfy every palate.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Tangy Tadka</p>
+    </footer>
+</body>
+</html> 
